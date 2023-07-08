@@ -1,0 +1,28 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Navbar styles */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 150px;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+ul li,
+ul a {
+  list-style: none;
+  text-decoration: none;
+}
